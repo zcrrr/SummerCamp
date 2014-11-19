@@ -1,0 +1,40 @@
+//
+//  BaseViewController.m
+//  SummerCamp
+//
+//  Created by zc on 14-10-30.
+//  Copyright (c) 2014年 张 驰. All rights reserved.
+//
+
+#import "BaseViewController.h"
+
+@interface BaseViewController ()
+
+@end
+
+@implementation BaseViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+}
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

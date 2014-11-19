@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A73D4D21A0237AF00B611C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D4D11A0237AF00B611C0 /* main.m */; };
+		9A73D4D51A0237AF00B611C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D4D41A0237AF00B611C0 /* AppDelegate.m */; };
+		9A73D4DD1A0237AF00B611C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A73D4DC1A0237AF00B611C0 /* Images.xcassets */; };
+		9A73D4E01A0237AF00B611C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A73D4DE1A0237AF00B611C0 /* LaunchScreen.xib */; };
+		9A73D4EC1A0237AF00B611C0 /* SummerCampTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D4EB1A0237AF00B611C0 /* SummerCampTests.m */; };
+		9A73D4F91A0238E900B611C0 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D4F71A0238E900B611C0 /* MainViewController.m */; };
+		9A73D4FA1A0238E900B611C0 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A73D4F81A0238E900B611C0 /* MainViewController.xib */; };
+		9A73D4FF1A02408500B611C0 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D4FD1A02408500B611C0 /* ChildViewController.m */; };
+		9A73D5001A02408500B611C0 /* ChildViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A73D4FE1A02408500B611C0 /* ChildViewController.xib */; };
+		9A73D5041A0246B900B611C0 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D5021A0246B900B611C0 /* ParentViewController.m */; };
+		9A73D5051A0246B900B611C0 /* ParentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A73D5031A0246B900B611C0 /* ParentViewController.xib */; };
+		9A73D5081A02475C00B611C0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D5071A02475C00B611C0 /* BaseViewController.m */; };
+		9A73D50C1A024B5300B611C0 /* ZCUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73D50B1A024B5300B611C0 /* ZCUtil.m */; };
+		9A7795B11A03256000770ED7 /* CNLocationHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7795B01A03256000770ED7 /* CNLocationHandler.m */; };
+		9A7795B31A03268E00770ED7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795B21A03268E00770ED7 /* CoreLocation.framework */; };
+		9A7795B51A032EEA00770ED7 /* MAMapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795B41A032EEA00770ED7 /* MAMapKit.framework */; };
+		9A7795B71A032F0800770ED7 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795B61A032F0800770ED7 /* QuartzCore.framework */; };
+		9A7795B91A032F1200770ED7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795B81A032F1200770ED7 /* SystemConfiguration.framework */; };
+		9A7795BB1A032F1A00770ED7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795BA1A032F1A00770ED7 /* CoreTelephony.framework */; };
+		9A7795BD1A032F2500770ED7 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795BC1A032F2500770ED7 /* libz.dylib */; };
+		9A7795BF1A032F2E00770ED7 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795BE1A032F2E00770ED7 /* OpenGLES.framework */; };
+		9A7795C11A032F3A00770ED7 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795C01A032F3A00770ED7 /* libstdc++.6.0.9.dylib */; };
+		9A7795C31A032F4000770ED7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A7795C21A032F4000770ED7 /* Security.framework */; };
+		9A7795C61A032F6800770ED7 /* AMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A7795C51A032F6800770ED7 /* AMap.bundle */; };
+		9A7795CA1A03335900770ED7 /* CNMatchAvatarAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7795C81A03335900770ED7 /* CNMatchAvatarAnnotationView.m */; };
+		9A7795CD1A0333AD00770ED7 /* avatar_pop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A7795CC1A0333AD00770ED7 /* avatar_pop.png */; };
+		9A7795E71A035EEA00770ED7 /* stu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A7795E21A035EEA00770ED7 /* stu1.png */; };
+		9A7795E81A035EEA00770ED7 /* stu2.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A7795E31A035EEA00770ED7 /* stu2.png */; };
+		9A7795EA1A035EEA00770ED7 /* stu3.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A7795E51A035EEA00770ED7 /* stu3.png */; };
+		9A7795EB1A035EEA00770ED7 /* teacher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9A7795E61A035EEA00770ED7 /* teacher.jpg */; };
+		9A7795EE1A038A8B00770ED7 /* CNEncryption.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7795ED1A038A8B00770ED7 /* CNEncryption.m */; };
+		9A7795F21A038E1300770ED7 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7795F11A038E1300770ED7 /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A73D4E61A0237AF00B611C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A73D4C41A0237AF00B611C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A73D4CB1A0237AF00B611C0;
+			remoteInfo = SummerCamp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A73D4CC1A0237AF00B611C0 /* SummerCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SummerCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A73D4D01A0237AF00B611C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A73D4D11A0237AF00B611C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A73D4D31A0237AF00B611C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A73D4D41A0237AF00B611C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A73D4DC1A0237AF00B611C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9A73D4DF1A0237AF00B611C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9A73D4E51A0237AF00B611C0 /* SummerCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SummerCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A73D4EA1A0237AF00B611C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A73D4EB1A0237AF00B611C0 /* SummerCampTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SummerCampTests.m; sourceTree = "<group>"; };
+		9A73D4F61A0238E900B611C0 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9A73D4F71A0238E900B611C0 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9A73D4F81A0238E900B611C0 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		9A73D4FC1A02408500B611C0 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		9A73D4FD1A02408500B611C0 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		9A73D4FE1A02408500B611C0 /* ChildViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChildViewController.xib; sourceTree = "<group>"; };
+		9A73D5011A0246B900B611C0 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		9A73D5021A0246B900B611C0 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		9A73D5031A0246B900B611C0 /* ParentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ParentViewController.xib; sourceTree = "<group>"; };
+		9A73D5061A02475C00B611C0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9A73D5071A02475C00B611C0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9A73D50A1A024B5300B611C0 /* ZCUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCUtil.h; sourceTree = "<group>"; };
+		9A73D50B1A024B5300B611C0 /* ZCUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCUtil.m; sourceTree = "<group>"; };
+		9A7795AF1A03256000770ED7 /* CNLocationHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNLocationHandler.h; sourceTree = "<group>"; };
+		9A7795B01A03256000770ED7 /* CNLocationHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNLocationHandler.m; sourceTree = "<group>"; };
+		9A7795B21A03268E00770ED7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9A7795B41A032EEA00770ED7 /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MAMapKit.framework; path = ../../lib/MAMapKit.framework; sourceTree = "<group>"; };
+		9A7795B61A032F0800770ED7 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9A7795B81A032F1200770ED7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9A7795BA1A032F1A00770ED7 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		9A7795BC1A032F2500770ED7 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9A7795BE1A032F2E00770ED7 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		9A7795C01A032F3A00770ED7 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
+		9A7795C21A032F4000770ED7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9A7795C51A032F6800770ED7 /* AMap.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AMap.bundle; sourceTree = "<group>"; };
+		9A7795C81A03335900770ED7 /* CNMatchAvatarAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNMatchAvatarAnnotationView.m; sourceTree = "<group>"; };
+		9A7795C91A03335900770ED7 /* CNMatchAvatarAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNMatchAvatarAnnotationView.h; sourceTree = "<group>"; };
+		9A7795CC1A0333AD00770ED7 /* avatar_pop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = avatar_pop.png; sourceTree = "<group>"; };
+		9A7795E21A035EEA00770ED7 /* stu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stu1.png; sourceTree = "<group>"; };
+		9A7795E31A035EEA00770ED7 /* stu2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stu2.png; sourceTree = "<group>"; };
+		9A7795E51A035EEA00770ED7 /* stu3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stu3.png; sourceTree = "<group>"; };
+		9A7795E61A035EEA00770ED7 /* teacher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = teacher.jpg; sourceTree = "<group>"; };
+		9A7795EC1A038A8B00770ED7 /* CNEncryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CNEncryption.h; sourceTree = "<group>"; };
+		9A7795ED1A038A8B00770ED7 /* CNEncryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CNEncryption.m; sourceTree = "<group>"; };
+		9A7795F01A038E1300770ED7 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		9A7795F11A038E1300770ED7 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A73D4C91A0237AF00B611C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7795C31A032F4000770ED7 /* Security.framework in Frameworks */,
+				9A7795C11A032F3A00770ED7 /* libstdc++.6.0.9.dylib in Frameworks */,
+				9A7795BF1A032F2E00770ED7 /* OpenGLES.framework in Frameworks */,
+				9A7795BD1A032F2500770ED7 /* libz.dylib in Frameworks */,
+				9A7795BB1A032F1A00770ED7 /* CoreTelephony.framework in Frameworks */,
+				9A7795B91A032F1200770ED7 /* SystemConfiguration.framework in Frameworks */,
+				9A7795B71A032F0800770ED7 /* QuartzCore.framework in Frameworks */,
+				9A7795B51A032EEA00770ED7 /* MAMapKit.framework in Frameworks */,
+				9A7795B31A03268E00770ED7 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73D4E21A0237AF00B611C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A73D4C31A0237AF00B611C0 = {
+			isa = PBXGroup;
+			children = (
+				9A7795C21A032F4000770ED7 /* Security.framework */,
+				9A7795C01A032F3A00770ED7 /* libstdc++.6.0.9.dylib */,
+				9A7795BE1A032F2E00770ED7 /* OpenGLES.framework */,
+				9A7795BC1A032F2500770ED7 /* libz.dylib */,
+				9A7795BA1A032F1A00770ED7 /* CoreTelephony.framework */,
+				9A7795B81A032F1200770ED7 /* SystemConfiguration.framework */,
+				9A7795B61A032F0800770ED7 /* QuartzCore.framework */,
+				9A7795B41A032EEA00770ED7 /* MAMapKit.framework */,
+				9A7795B21A03268E00770ED7 /* CoreLocation.framework */,
+				9A73D4CE1A0237AF00B611C0 /* SummerCamp */,
+				9A73D4E81A0237AF00B611C0 /* SummerCampTests */,
+				9A73D4CD1A0237AF00B611C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A73D4CD1A0237AF00B611C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A73D4CC1A0237AF00B611C0 /* SummerCamp.app */,
+				9A73D4E51A0237AF00B611C0 /* SummerCampTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A73D4CE1A0237AF00B611C0 /* SummerCamp */ = {
+			isa = PBXGroup;
+			children = (
+				9A7795CB1A03339800770ED7 /* res */,
+				9A7795C71A03332700770ED7 /* customview */,
+				9A7795AE1A03255300770ED7 /* location */,
+				9A73D5091A024B2F00B611C0 /* assist */,
+				9A73D4FB1A023C9200B611C0 /* third */,
+				9A73D4F51A0238C800B611C0 /* ViewController */,
+				9A73D4D31A0237AF00B611C0 /* AppDelegate.h */,
+				9A73D4D41A0237AF00B611C0 /* AppDelegate.m */,
+				9A73D4DC1A0237AF00B611C0 /* Images.xcassets */,
+				9A73D4DE1A0237AF00B611C0 /* LaunchScreen.xib */,
+				9A73D4CF1A0237AF00B611C0 /* Supporting Files */,
+			);
+			path = SummerCamp;
+			sourceTree = "<group>";
+		};
+		9A73D4CF1A0237AF00B611C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A73D4D01A0237AF00B611C0 /* Info.plist */,
+				9A73D4D11A0237AF00B611C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A73D4E81A0237AF00B611C0 /* SummerCampTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A73D4EB1A0237AF00B611C0 /* SummerCampTests.m */,
+				9A73D4E91A0237AF00B611C0 /* Supporting Files */,
+			);
+			path = SummerCampTests;
+			sourceTree = "<group>";
+		};
+		9A73D4E91A0237AF00B611C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A73D4EA1A0237AF00B611C0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A73D4F51A0238C800B611C0 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9A73D4F61A0238E900B611C0 /* MainViewController.h */,
+				9A73D4F71A0238E900B611C0 /* MainViewController.m */,
+				9A73D4F81A0238E900B611C0 /* MainViewController.xib */,
+				9A73D4FC1A02408500B611C0 /* ChildViewController.h */,
+				9A73D4FD1A02408500B611C0 /* ChildViewController.m */,
+				9A73D4FE1A02408500B611C0 /* ChildViewController.xib */,
+				9A73D5011A0246B900B611C0 /* ParentViewController.h */,
+				9A73D5021A0246B900B611C0 /* ParentViewController.m */,
+				9A73D5031A0246B900B611C0 /* ParentViewController.xib */,
+				9A73D5061A02475C00B611C0 /* BaseViewController.h */,
+				9A73D5071A02475C00B611C0 /* BaseViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		9A73D4FB1A023C9200B611C0 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				9A7795EF1A038DF900770ED7 /* udp */,
+				9A7795C41A032F5600770ED7 /* gdmap */,
+			);
+			name = third;
+			sourceTree = "<group>";
+		};
+		9A73D5091A024B2F00B611C0 /* assist */ = {
+			isa = PBXGroup;
+			children = (
+				9A73D50A1A024B5300B611C0 /* ZCUtil.h */,
+				9A73D50B1A024B5300B611C0 /* ZCUtil.m */,
+			);
+			name = assist;
+			sourceTree = "<group>";
+		};
+		9A7795AE1A03255300770ED7 /* location */ = {
+			isa = PBXGroup;
+			children = (
+				9A7795EC1A038A8B00770ED7 /* CNEncryption.h */,
+				9A7795ED1A038A8B00770ED7 /* CNEncryption.m */,
+				9A7795AF1A03256000770ED7 /* CNLocationHandler.h */,
+				9A7795B01A03256000770ED7 /* CNLocationHandler.m */,
+			);
+			name = location;
+			sourceTree = "<group>";
+		};
+		9A7795C41A032F5600770ED7 /* gdmap */ = {
+			isa = PBXGroup;
+			children = (
+				9A7795C51A032F6800770ED7 /* AMap.bundle */,
+			);
+			name = gdmap;
+			sourceTree = "<group>";
+		};
+		9A7795C71A03332700770ED7 /* customview */ = {
+			isa = PBXGroup;
+			children = (
+				9A7795C81A03335900770ED7 /* CNMatchAvatarAnnotationView.m */,
+				9A7795C91A03335900770ED7 /* CNMatchAvatarAnnotationView.h */,
+			);
+			name = customview;
+			sourceTree = "<group>";
+		};
+		9A7795CB1A03339800770ED7 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				9A7795E21A035EEA00770ED7 /* stu1.png */,
+				9A7795E31A035EEA00770ED7 /* stu2.png */,
+				9A7795E51A035EEA00770ED7 /* stu3.png */,
+				9A7795E61A035EEA00770ED7 /* teacher.jpg */,
+				9A7795CC1A0333AD00770ED7 /* avatar_pop.png */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		9A7795EF1A038DF900770ED7 /* udp */ = {
+			isa = PBXGroup;
+			children = (
+				9A7795F01A038E1300770ED7 /* GCDAsyncUdpSocket.h */,
+				9A7795F11A038E1300770ED7 /* GCDAsyncUdpSocket.m */,
+			);
+			name = udp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A73D4CB1A0237AF00B611C0 /* SummerCamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A73D4EF1A0237AF00B611C0 /* Build configuration list for PBXNativeTarget "SummerCamp" */;
+			buildPhases = (
+				9A73D4C81A0237AF00B611C0 /* Sources */,
+				9A73D4C91A0237AF00B611C0 /* Frameworks */,
+				9A73D4CA1A0237AF00B611C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SummerCamp;
+			productName = SummerCamp;
+			productReference = 9A73D4CC1A0237AF00B611C0 /* SummerCamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A73D4E41A0237AF00B611C0 /* SummerCampTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A73D4F21A0237AF00B611C0 /* Build configuration list for PBXNativeTarget "SummerCampTests" */;
+			buildPhases = (
+				9A73D4E11A0237AF00B611C0 /* Sources */,
+				9A73D4E21A0237AF00B611C0 /* Frameworks */,
+				9A73D4E31A0237AF00B611C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A73D4E71A0237AF00B611C0 /* PBXTargetDependency */,
+			);
+			name = SummerCampTests;
+			productName = SummerCampTests;
+			productReference = 9A73D4E51A0237AF00B611C0 /* SummerCampTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A73D4C41A0237AF00B611C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "张 驰";
+				TargetAttributes = {
+					9A73D4CB1A0237AF00B611C0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					9A73D4E41A0237AF00B611C0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 9A73D4CB1A0237AF00B611C0;
+					};
+				};
+			};
+			buildConfigurationList = 9A73D4C71A0237AF00B611C0 /* Build configuration list for PBXProject "SummerCamp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A73D4C31A0237AF00B611C0;
+			productRefGroup = 9A73D4CD1A0237AF00B611C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A73D4CB1A0237AF00B611C0 /* SummerCamp */,
+				9A73D4E41A0237AF00B611C0 /* SummerCampTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A73D4CA1A0237AF00B611C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A7795E71A035EEA00770ED7 /* stu1.png in Resources */,
+				9A7795C61A032F6800770ED7 /* AMap.bundle in Resources */,
+				9A7795EB1A035EEA00770ED7 /* teacher.jpg in Resources */,
+				9A7795E81A035EEA00770ED7 /* stu2.png in Resources */,
+				9A7795EA1A035EEA00770ED7 /* stu3.png in Resources */,
+				9A73D4E01A0237AF00B611C0 /* LaunchScreen.xib in Resources */,
+				9A73D5051A0246B900B611C0 /* ParentViewController.xib in Resources */,
+				9A73D4FA1A0238E900B611C0 /* MainViewController.xib in Resources */,
+				9A73D4DD1A0237AF00B611C0 /* Images.xcassets in Resources */,
+				9A7795CD1A0333AD00770ED7 /* avatar_pop.png in Resources */,
+				9A73D5001A02408500B611C0 /* ChildViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73D4E31A0237AF00B611C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A73D4C81A0237AF00B611C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A73D4D51A0237AF00B611C0 /* AppDelegate.m in Sources */,
+				9A7795F21A038E1300770ED7 /* GCDAsyncUdpSocket.m in Sources */,
+				9A73D50C1A024B5300B611C0 /* ZCUtil.m in Sources */,
+				9A73D5081A02475C00B611C0 /* BaseViewController.m in Sources */,
+				9A73D4F91A0238E900B611C0 /* MainViewController.m in Sources */,
+				9A73D5041A0246B900B611C0 /* ParentViewController.m in Sources */,
+				9A73D4D21A0237AF00B611C0 /* main.m in Sources */,
+				9A7795B11A03256000770ED7 /* CNLocationHandler.m in Sources */,
+				9A7795EE1A038A8B00770ED7 /* CNEncryption.m in Sources */,
+				9A73D4FF1A02408500B611C0 /* ChildViewController.m in Sources */,
+				9A7795CA1A03335900770ED7 /* CNMatchAvatarAnnotationView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A73D4E11A0237AF00B611C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A73D4EC1A0237AF00B611C0 /* SummerCampTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A73D4E71A0237AF00B611C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A73D4CB1A0237AF00B611C0 /* SummerCamp */;
+			targetProxy = 9A73D4E61A0237AF00B611C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A73D4DE1A0237AF00B611C0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A73D4DF1A0237AF00B611C0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A73D4ED1A0237AF00B611C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A73D4EE1A0237AF00B611C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A73D4F01A0237AF00B611C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhangchi/Desktop/summer/lib,
+				);
+				INFOPLIST_FILE = SummerCamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9A73D4F11A0237AF00B611C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhangchi/Desktop/summer/lib,
+				);
+				INFOPLIST_FILE = SummerCamp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9A73D4F31A0237AF00B611C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SummerCampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerCamp.app/SummerCamp";
+			};
+			name = Debug;
+		};
+		9A73D4F41A0237AF00B611C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SummerCampTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SummerCamp.app/SummerCamp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A73D4C71A0237AF00B611C0 /* Build configuration list for PBXProject "SummerCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73D4ED1A0237AF00B611C0 /* Debug */,
+				9A73D4EE1A0237AF00B611C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A73D4EF1A0237AF00B611C0 /* Build configuration list for PBXNativeTarget "SummerCamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73D4F01A0237AF00B611C0 /* Debug */,
+				9A73D4F11A0237AF00B611C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A73D4F21A0237AF00B611C0 /* Build configuration list for PBXNativeTarget "SummerCampTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73D4F31A0237AF00B611C0 /* Debug */,
+				9A73D4F41A0237AF00B611C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A73D4C41A0237AF00B611C0 /* Project object */;
+}
