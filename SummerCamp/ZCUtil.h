@@ -11,6 +11,6 @@
 @interface ZCUtil : NSObject
 
 + (NSString*)nowTimeString;
-+ (long long)nowTimeStamp_millisecond;
++ (long long)nowTimeStamp_millisecond;  
 
 @end
